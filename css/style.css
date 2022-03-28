@@ -76,6 +76,7 @@ header ul a:hover {
 .main-sec {
     box-sizing: border-box;
     height: 100vh;
+    min-height: 667px;
     /*padding: 37% 0 35% 0;*/
     padding: 298px 0 30px 0;
     background: linear-gradient(287.15deg, #450E4B 0%, #3C0C41 24.48%, rgba(207, 0, 99, 0) 100%),
@@ -318,13 +319,6 @@ h1 {
     flex-direction: row-reverse;
 }
 
-.sec-carousel {
-    background-image: url("../images/phones.jpg");
-    background-position: bottom center;
-    background-repeat: no-repeat;
-    padding-bottom: 636px;
-}
-
 .cont-carousel {
     max-width: 1008px;
     margin: auto;
@@ -335,6 +329,10 @@ h1 {
     margin-bottom: 66px;
 }
 
+.img-phones {
+    max-width: 1440px;
+}
+
 .txt-carousel {
     max-width: 700px;
     margin: auto;
@@ -342,7 +340,7 @@ h1 {
 
 .companies-img {
     max-width: 1008px;
-    margin: auto;
+    margin: 0 auto 118px;
 }
 
 .txt-carousel {
