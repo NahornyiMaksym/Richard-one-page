@@ -48,6 +48,7 @@
     }
     .picture {
         margin-bottom: 30px;
+        margin-right: 0;
     }
     .article-screen {
         max-width: 100%;
@@ -106,7 +107,7 @@
 }
 
 @media only screen and (max-width: 545px) {
-    .article-screen {
+    .cont-screens .article-screen {
         max-width: 250px;
     }
     .div-scr-shot {
@@ -120,7 +121,7 @@
 }
 
 @media only screen and (max-width: 520px) {
-    .article-screen {
+    .cont-screens .article-screen {
         max-width: 335px;
     }
     .h3-screen {

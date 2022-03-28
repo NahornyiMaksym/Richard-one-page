@@ -421,6 +421,7 @@ h1 {
 .buttons {
     display: flex;
     justify-content: space-around;
+    text-align: center;
 }
 
 .buttons .button {
