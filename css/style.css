@@ -12,7 +12,7 @@
 
 .logo {
     width: 120px;
-    transition: all 0.3s;
+    transition: all 0.2s;
 }
 .logo:hover {
     box-shadow: 2px 2px 15px rgba(255, 255, 255, 1);
@@ -66,12 +66,11 @@ a {
 }
 
 header ul a {
-    transition: all 0.3s;
+    transition: all 0.2s;
 }
 
 header ul a:hover {
-    font-size: 18px;
-    box-sizing: border-box;
+    transform: scale(130%);
 }
 
 .main-sec {
@@ -104,12 +103,12 @@ h1 {
     background: rgba(252, 10, 126, 1);
     border-radius: 3px;
     font-size: 16px;
-    transition: all 0.3s;
+    transition: all 0.2s;
 }
 
 .button-pink:hover {
     box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.7);
-    font-size: 18px;
+    transform: scale(110%);
 }
 
 .m-btm25pr {
@@ -424,6 +423,15 @@ h1 {
     justify-content: space-around;
 }
 
+.buttons .button {
+    transition: 0.2s;
+}
+
+.buttons .button:hover {
+    transform: scale(110%);
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.7);
+}
+
 .sec-form {
     background-color: rgba(27, 27, 27, 1);
     padding: 129px 0 126px 0;
@@ -514,4 +522,14 @@ footer li {
     height: 7px;
     background-color: rgba(34, 34, 34, 0.4);
 
+}
+
+.main-sec .arrow-svg {
+    animation: jumping-arrow 1s linear infinite;
+}
+
+@keyframes jumping-arrow {
+    0% { bottom: 50px;  }
+    50% { bottom: 0 }
+    100% { bottom: 50px }
 }

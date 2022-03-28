@@ -1,6 +1,6 @@
 @media only screen and (max-width: 1155px) {
     .container-main-sec {
-        padding: 0 5px;
+        padding: 0 10px;
     }
 
     .div-scr-shot {
@@ -27,8 +27,7 @@
     }
 
     .main-sec-p {
-        max-width: 450px;
-        margin: 0 360px 35px 0;
+        margin: 0 345px 35px 0;
     }
 
     .cont-carousel {
@@ -60,7 +59,15 @@
     }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 800px) {
+    .div-scr-shot {
+        max-width: 410px;
+        right: -85px;
+        top: 25px;
+    }
+    .main-sec-p {
+        margin: 0 235px 35px 0;
+    }
 
 }
 
@@ -101,6 +108,14 @@
 @media only screen and (max-width: 545px) {
     .article-screen {
         max-width: 250px;
+    }
+    .div-scr-shot {
+        max-width: 310px;
+        right: -85px;
+        top: 25px;
+    }
+    .container-main-sec .main-sec-p {
+        margin: 0 170px 35px 0;
     }
 }
 
@@ -152,24 +167,26 @@
     }
 }
 @media only screen and (max-width: 470px) {
+    .container-main-sec {
+        text-align: center;
+    }
     h1 {
         font-size: 50px;
     }
-
-    .main-sec-p {
-        margin-right: 235px;
+    .container-main-sec .div-scr-shot {
+        display: none;
+    }
+    .container-main-sec .main-sec-p {
+        margin: 0 0 35px 0;
         font-size: 23px;
     }
 
     .h2-black-sec {
         font-size: 30px;
     }
-}
-
-@media only screen and (max-width: 470px) {
     .cont-form {
-        padding: 0 7px;
-    }
+          padding: 0 7px;
+      }
 }
 
 @media only screen and (max-width: 420px) {
