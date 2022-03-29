@@ -295,6 +295,7 @@ h1 {
     margin: auto;
 }
 
+
 .txt-picture {
     display: flex;
     justify-content: space-between;
@@ -520,15 +521,68 @@ footer li {
     width: 7px;
     height: 7px;
     background-color: rgba(34, 34, 34, 0.4);
-
 }
+
+.ui-widget-header {
+    background: rgb(252 10 126);
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    font-size: 18px;
+}
+
+.ui-button {
+    background: url("../images/close-mark.svg");
+    transition: 0.2s;
+}
+
+.ui-icon {
+    display: none;
+}
+
+
+.ui-button:hover, .ui-button:focus {
+    background: url("../images/close-mark.svg")
+}
+
+.ui-button:hover {
+    transform: scale(130%);
+}
+
+.ui-widget-content {
+    font-size: 15px;
+}
+
+.ui-button.ui-corner-all.ui-widget.ui-button-icon-only.ui-dialog-titlebar-close {
+    border: none;
+}
+.ui-dialog {
+    padding: 0;
+}
+
+.ui-widget.ui-widget-content {
+    border: none;
+}
+
+
 
 .main-sec .arrow-svg {
     animation: jumping-arrow 1s linear infinite;
+    /*animation: drop-down 1s linear 1;*/
 }
 
 @keyframes jumping-arrow {
     0% { bottom: 50px;  }
     50% { bottom: 0 }
     100% { bottom: 50px }
+}
+
+header ul li {
+    animation: slide-fr-right 1s linear 1;
+    position: relative;
+}
+@keyframes slide-fr-right {
+    0% {right: -100%}
+    100% {right: 0}
 }
