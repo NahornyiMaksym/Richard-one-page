@@ -1,0 +1,34 @@
+@import url(owl.carousel.css);
+@import url(owl.theme.default.css);
+@import url(normalize.css);
+@import url(menu-css.css);
+@import url(new-menu.css);
+@import url(style.css);
+@import url(media.css);
+.button-pink {
+  padding: 20px 40px;
+  color: white;
+  background: #fc0a7e;
+  border-radius: 3px;
+  font-size: 16px;
+  transition: all 0.2s; }
+
+header ul {
+  list-style: none; }
+  header ul a {
+    transition: all 0.2s; }
+  header ul a:hover {
+    transform: scale(130%); }
+header a {
+  text-decoration: none;
+  color: white; }
+
+.container-main-sec {
+  max-width: 1152px;
+  margin: auto;
+  position: relative; }
+  @media screen and (max-width: 1155px) {
+    .container-main-sec {
+      padding: 0 10px; } }
+
+/*# sourceMappingURL=main.css.map */

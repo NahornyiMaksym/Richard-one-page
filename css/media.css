@@ -1,7 +1,5 @@
 @media only screen and (max-width: 1155px) {
-    .container-main-sec {
-        padding: 0 10px;
-    }
+
 
     .div-scr-shot {
         top: -90px;
@@ -89,6 +87,12 @@
         flex-basis: 90%;
     }
 }
+
+@media only screen and (max-width: 650px) {
+    .menu {
+        max-width: none;
+    }
+}
 @media only screen and (max-width: 610px) {
     .h2-black-sec {
         margin: 0 5px 55px 0;
@@ -124,6 +128,7 @@
 }
 
 @media only screen and (max-width: 520px) {
+
     .cont-screens .article-screen {
         max-width: 335px;
     }

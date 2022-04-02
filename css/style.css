@@ -5,14 +5,11 @@
     font-weight: 400;
 }
 
-.container-main-sec {
-    max-width: 1152px;
-    margin: auto;
-}
 
 .logo {
     width: 120px;
     transition: all 0.2s;
+    z-index: 1;
 }
 .logo:hover {
     box-shadow: 2px 2px 15px rgba(255, 255, 255, 1);
@@ -36,14 +33,14 @@ header {
     width: 100%;
 }
 
-header ul {
-    list-style: none;
-}
+/*header ul {*/
+/*    list-style: none;*/
+/*}*/
 
-header a {
-    text-decoration: none;
-    color: rgba(255, 255, 255, 1)
-}
+/*header a {*/
+/*    text-decoration: none;*/
+/*    color: rgba(255, 255, 255, 1)*/
+/*}*/
 
 a {
     display: inline-block;
@@ -54,6 +51,10 @@ a {
     display: flex;
     justify-content: space-between;
 }
+
+header.nav {
+    display: block;
+}
 .menu {
     max-width: 382px;
     display: flex;
@@ -62,20 +63,21 @@ a {
 
 .menu-li {
     font-size: 15px;
-    margin: 0 15px;
+    margin: 0 15px 15px 15px;
 }
 
-header ul a {
-    transition: all 0.2s;
-}
+/*header ul a {*/
+/*    transition: all 0.2s;*/
+/*}*/
 
-header ul a:hover {
-    transform: scale(130%);
-}
+/*header ul a:hover {*/
+/*    transform: scale(130%);*/
+/*}*/
 
 .main-sec {
     box-sizing: border-box;
     height: 100vh;
+    position: relative;
     min-height: 667px;
     /*padding: 37% 0 35% 0;*/
     padding: 298px 0 30px 0;
@@ -98,14 +100,14 @@ h1 {
     z-index: 2;
 }
 
-.button-pink {
-    padding: 20px 40px;
-    color: rgba(255, 255, 255, 1);
-    background: rgba(252, 10, 126, 1);
-    border-radius: 3px;
-    font-size: 16px;
-    transition: all 0.2s;
-}
+/*.button-pink {*/
+/*    padding: 20px 40px;*/
+/*    color: rgba(255, 255, 255, 1);*/
+/*    background: rgba(252, 10, 126, 1);*/
+/*    border-radius: 3px;*/
+/*    font-size: 16px;*/
+/*    transition: all 0.2s;*/
+/*}*/
 
 .button-pink:hover {
     box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.7);
