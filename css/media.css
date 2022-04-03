@@ -31,6 +31,9 @@
     .cont-carousel {
         padding: 0 5px;
     }
+    .img-phones {
+        margin: 0 -5px;
+    }
 }
 
 @media only screen and (max-width: 992px) {
@@ -44,13 +47,18 @@
         flex-direction: column-reverse;
         padding: 0;
     }
-    .picture {
-        margin-bottom: 30px;
+    .m-right15 {
         margin-right: 0;
     }
-    .article-screen {
-        max-width: 100%;
+    .picture {
+
+        margin: 0 auto 30px;
+        max-width: 340px;
+    }
+
+    .txt-picture .article-screen {
         text-align: center;
+        max-width: none;
     }
     .cont-txt-picture .p-left30 .p-right30 .m-right15 {
         padding: 0;
@@ -92,6 +100,9 @@
     .menu {
         max-width: none;
     }
+    .txt-carousel {
+        font-size: 19px;
+    }
 }
 @media only screen and (max-width: 610px) {
     .h2-black-sec {
@@ -110,7 +121,15 @@
 
     footer ul {
         flex-wrap: wrap;
+        justify-content: center;
     }
+    footer ul li {
+        text-align: center;
+        flex-basis: 33%;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
 }
 
 @media only screen and (max-width: 545px) {
@@ -147,7 +166,7 @@
     }
     .img-mob-screen {
         margin-bottom: 20px;
-        max-width: 341px;
+        max-width: 280px;
     }
     .img-mob-orders {
         margin-bottom: 20px;
@@ -202,6 +221,12 @@
     .get-start-cont {
         padding: 0 5px;
     }
+    .buttons .button-pink, .button {
+        padding: 15px 20px;
+    }
+    .p-big {
+        font-size: 30px;
+    }
 }
 
 @media only screen and (max-width: 375px) {
@@ -222,6 +247,24 @@
     }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 340px) {
+    .picture {
 
+        margin: 0 -5px 30px;
+        max-width: 340px;
+    }
+}
+
+@media only screen and (max-width: 310px) {
+    .cont-form .d-flex {
+        flex-direction: column;
+    }
+    .input-email {
+        border-radius: 3px;
+        margin-bottom: 10px;
+    }
+    .button-form {
+        margin: auto;
+        border-radius: 3px;
+    }
 }
