@@ -452,7 +452,7 @@ h1 {
     display: block;
     border: none;
     width: 100%;
-    padding: 22px 0 22px 15px ;
+    padding: 22px 15px;
     border-radius: 3px 0 0 3px;
     color: rgba(28, 28, 28, 1);
     font-size: 16px;
