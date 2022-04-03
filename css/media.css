@@ -53,16 +53,20 @@
     .picture {
 
         margin: 0 auto 30px;
-        max-width: 340px;
+        max-width: 420px;
     }
 
     .txt-picture .article-screen {
         text-align: center;
-        max-width: none;
+        max-width: 410px;
+        margin: auto;
     }
     .cont-txt-picture .p-left30 .p-right30 .m-right15 {
         padding: 0;
         margin-right: 0;
+    }
+    .txt-carousel {
+        padding: 0 20px;
     }
 }
 
@@ -226,6 +230,11 @@
     }
     .p-big {
         font-size: 30px;
+    }
+    .picture {
+
+        margin: 0 -5px 30px;
+        max-width: 420px;
     }
 }
 
